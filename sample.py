@@ -148,7 +148,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--text8_tokenizer", action="store_true", help="Use the text8 tokenizer. Only use for models trained on text8"
     )
-    parser.add_argument("--kernel_mode", type=str, default="pallas" help="tianq's speial sauce")
+    parser.add_argument("--kernel_mode", type=str, default="pallas", help="tianq's speial sauce")
     args = parser.parse_args()
 
     main(args)
